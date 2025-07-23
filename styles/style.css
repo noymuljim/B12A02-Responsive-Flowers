@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    background-color: #F5F8FF;
 }
 
 .noto-serif {
@@ -64,6 +65,30 @@ text-decoration: none;
 
 }
 
+/* banner */
+.banner-left{
+  flex:1;
+}
+.banner-right{
+  flex: 1;
+}
+.banner-left h1{
+  font-size: 4.0625rem;
+  font-weight: 700;
+
+}
+
+.banner-right img{
+  max-width: 100%;
+  display: block;
+}
+
+.banner{
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+}
+
 /* mobile responsive part  */
 @media screen and (max-width:576px) {
   .navigations{
@@ -72,4 +97,20 @@ display: none;
   nav{
     margin: 0 16px;
   }
+  .banner{
+   flex-direction: column-reverse;
+  }
+  .banner-left{
+    margin: 28px 16px 63px 16px;
+  }
+  .banner-left h1{
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 13px;
+  }
+  .banner-left p{
+    font-size: 0.875rem;
+  }
+
+
 }
