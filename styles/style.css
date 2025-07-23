@@ -1,3 +1,7 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 
 .noto-serif {
     font-family: "Noto Serif", serif;
@@ -22,11 +26,19 @@
     margin:120px 0 120px 0 ;
   }
 
+  .orange-color{
+    color: #E95A08;
+  }
+  .grey-color{
+    color: rgba(0, 0, 0, 0.5);
+  }
+
   /* nav  design*/
   nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-top: 20px;
   }
   .nav-right ul{
     display: flex;
@@ -45,4 +57,25 @@
   }
   .nav-right .cart{
     color: black;
+  }
+
+  /* banner design */
+  .banner-container{
+    display:flex ;
+    align-items: end;
+    justify-content: space-between;
+  }
+  .banner-left h1{
+   font-size: 4.0625rem;
+    font-weight: 700;
+    margin-bottom: 13px;
+  }
+
+  .banner-left p{
+    max-width: 570px;
+    font-size: 1.375rem;
+  }
+  .banner-right img{
+    max-width: 100%;
+    display: block;
   }
