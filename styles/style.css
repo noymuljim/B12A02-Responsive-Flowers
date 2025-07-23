@@ -33,6 +33,20 @@
   .grey-color{
     color: rgba(0, 0, 0, 0.5);
   }
+.heading {
+text-align: center;
+}
+.heading h1{
+  font-size: 3.125rem;
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+.heading p{
+  font-size: 1.375rem;
+  margin-bottom: 49px;
+}
+
+
 
   /* nav  design*/
   .header{
@@ -75,7 +89,9 @@ text-decoration: none;
 .banner-left h1{
   font-size: 4.0625rem;
   font-weight: 700;
-
+}
+.banner-left p{
+  font-size: 1.375rem;
 }
 
 .banner-right img{
@@ -88,6 +104,48 @@ text-decoration: none;
   justify-content: space-between;
   align-items: end;
 }
+/* card */
+.card{
+  text-align: center;
+  width: 270px;
+}
+.card h1{
+  font-size: 1.375rem;
+  font-weight:500;
+  margin-bottom: 20px;
+}
+.card h2{
+  font-size: 1.375rem;
+  font-weight:700;
+  margin-bottom: 30px;
+}
+.card img{
+  margin-bottom: 30px;
+  max-width: 100%;
+}
+
+.btn{
+  background-color: #E95A08;
+  font-weight: 600;
+  font-size: 1rem;
+  color: white;
+  border: none;
+  padding:19px 80px;
+  width: 270px;
+}
+
+.flower-card{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  gap: 30px;
+}
+
+
+
+
+
+
+
 
 /* mobile responsive part  */
 @media screen and (max-width:576px) {
