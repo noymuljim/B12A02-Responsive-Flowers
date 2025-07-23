@@ -1,0 +1,48 @@
+
+.noto-serif {
+    font-family: "Noto Serif", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+  }
+  
+.inter {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+  }
+
+  .container{
+    max-width: 1140px;
+    margin: auto;
+  }
+
+  section{
+    margin:120px 0 120px 0 ;
+  }
+
+  /* nav  design*/
+  nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .nav-right ul{
+    display: flex;
+    gap: 48px;
+  }
+  .nav-right li{
+    list-style: none;
+  }
+  .nav-right a{
+    text-decoration: none;
+    color: #8987A1;
+  }
+  .nav-right .home{
+    font-weight: 700;
+    color: #252432;
+  }
+  .nav-right .cart{
+    color: black;
+  }
