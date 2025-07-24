@@ -148,6 +148,13 @@ button{
   gap: 20px;
 }
 
+
+
+
+
+
+
+
 /* store container design */
 .lovers{
   display: flex;
@@ -174,12 +181,14 @@ right: -90px;
   font-weight: 700;
   font-size: 3.125rem;
   margin-bottom: 20px;
+  color: #000000	;
 
 }
 .lover-content ul li{
   font-size:1.375rem ;
   color: rgba(0, 0, 0, 0.5);
   margin-bottom: 20px;
+  margin-left: 30px;
 }
 
 
@@ -201,7 +210,7 @@ right: -90px;
   .navigations{
 display: none;
   }
-  nav, .heading  {
+  nav, .heading , .lovers  {
     margin: 0 16px;
   }
 
@@ -227,6 +236,25 @@ display: none;
     margin-right: 16px;
   
   }
+  .trust-parent img{
+max-width: 100%;
+  }
   
 
+  .lovers{
+    flex-direction: column;
+      }
+.trust-child{
+  display: none;
+}
+.lover-content h1{
+  font-weight: 700;
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+
+}
+.lover-content ul{
+  font-size:0.875rem ;
+  margin: 0 16px;
+}
 }
