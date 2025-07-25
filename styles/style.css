@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-  
+  background-color: #F5F8FF;
 }
 
 .noto-serif {
@@ -269,6 +269,7 @@ background-image: url(../assets/deal-bloom.png);
   display: flex;
   justify-content: space-between;
   margin-top: 50px;
+ 
 }
 .footer p{
   font-size: 1.375rem;
@@ -339,8 +340,12 @@ max-width: 100%;
 }
 .lover-content h1{
   font-weight: 700;
-  font-size: 1.5rem;
+  font-size: 2em;
   margin-bottom: 20px;
+
+}
+.lover-content p{
+  font-size: 4em;
 
 }
 .lover-content ul{
@@ -387,5 +392,9 @@ max-width: 100%;
 }
 .lovers{
   margin-bottom: 100px;
+}
+.lovers *{
+  margin-left: 16px;
+  margin-right: 16px;
 }
 }
