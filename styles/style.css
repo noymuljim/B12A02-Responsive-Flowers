@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-    background-color: #F5F8FF;
+  
 }
 
 .noto-serif {
@@ -147,8 +147,9 @@ button{
   grid-template-columns: repeat(4,1fr);
   gap: 20px;
 }
-
-
+.footer-container{
+  height: 348px;
+}
 
 
 
@@ -195,11 +196,100 @@ right: -90px;
 
 
 
+/*  */
+.vertical-collage img{
+  height: calc( (100% - 25px)/2 )
+  
+}
+.vertical-collag .img1{
+  width: 100px;
+  height: 200px;
+background-image: url(../assets/deal-bloom.png);
+}
+.vertical-collage, .right-img{
+  height: 423px;
+}
+
+.shop-now{
+  height: 400px;
+  display: flex;
+  gap: 28px;
+  
+}
+.shop-now img{
+  border-radius: 22px;
+}
+
+
+.vertical-collage{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 25px;
+} 
 
 
 
 
 
+
+/* search */
+.search-parent{
+  margin-top: 120px;
+}
+.search-container{
+ height: 533px;
+  background-image: url(../assets/news-letter-bg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  height: 533px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.search-container input{
+  width: 644px;
+  height: 50px;
+  background-color: white;
+  border: none;
+  
+}
+.test h1{
+  font-size: 3.125rem;
+  font-weight: 700;
+  color: white;
+  display: block;
+}
+
+/* footer design  */
+.footer{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+.footer p{
+  font-size: 1.375rem;
+}
+.footer img{
+  margin-bottom: 16px;
+}
+.footer ul li{
+  list-style: none;
+  margin-bottom: 32px;
+}
+.footer li a{
+  text-decoration: none;
+  color: grey;
+}
+.footer-container{
+  background-color:none;
+}
+footer .icons img{
+  margin-right: 30px;
+}
 
 
 
@@ -256,5 +346,46 @@ max-width: 100%;
 .lover-content ul{
   font-size:0.875rem ;
   margin: 0 16px;
+}
+.search-container input{
+  margin-left: 36px;
+}
+.search-container button{
+  margin-right: 36px;
+  width: 103px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer{
+  flex-direction: column;
+  margin: 50px 16px;
+}
+.vertical-collage{
+  display: flex;
+  flex-direction: column;
+
+} 
+.shop-now{
+
+  flex-direction: column;
+ margin-bottom: 200px;
+ margin-left: 20px;
+ margin-right: 20px;
+ align-items: center;
+ justify-content: center;
+  
+}
+.shop-now img{
+ max-width: 100%;
+ max-height: 222px;
+  
+}
+.Latest-Deals{
+  margin-bottom: 200px;
+}
+.lovers{
+  margin-bottom: 100px;
 }
 }
